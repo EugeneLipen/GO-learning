@@ -24,11 +24,11 @@ func main() {
 	var age int32
 	fmt.Print("how old are you?: ")
 	fmt.Scanln(&age)
-	fmt.Printf("I'm %d./n", age)
+	fmt.Printf("I'm %d.\n", age)
 
 	//creating an error description
 	const name, id = "Venk", 23
-	err := fmt.Errorf("user %q (id %d) not found", name, id)
+	err := fmt.Errorf("User %q (id %d) not found", name, id)
 	fmt.Println(err.Error())
 
 }
