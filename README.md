@@ -1,2 +1,2 @@
-# Hello_GO
-This is my first programm on GO!
+# Learning GO
+this repository stores my files in which I did tasks for learning the programming language golang(GO)!
